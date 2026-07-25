@@ -50,6 +50,8 @@ We can also use `docker` to cross compile on every platform and OS that runs `do
             apt-get install -y \
               libasound2-dev \
               libssl-dev \
+              librust-libdbus-sys-dev \
+              libpulse-dev \
               jq \
               pkg-config &&
             wget -O - https://api.github.com/repos/Spotifyd/spotifyd/tarball/$(\
